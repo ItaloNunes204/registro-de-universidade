@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="mostraProfej" max="32767" attributes="0"/>
+                      <Component id="mostraTecj" max="32767" attributes="0"/>
+                      <Component id="mostraDiciplinaj" max="32767" attributes="0"/>
+                      <Component id="mostraCursoj" max="32767" attributes="0"/>
+                      <Component id="mostrafunj" max="32767" attributes="0"/>
+                      <Component id="mostraAJ" max="32767" attributes="0"/>
+                      <Component id="diciplinaj" max="32767" attributes="0"/>
+                      <Component id="cursoj" max="32767" attributes="0"/>
+                      <Component id="funcionarioj" pref="165" max="32767" attributes="0"/>
+                      <Component id="alunoj" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="aluno" max="32767" attributes="0"/>
+                      <Component id="funcio" max="32767" attributes="0"/>
+                      <Component id="curso" alignment="0" max="32767" attributes="0"/>
+                      <Component id="dici" alignment="0" max="32767" attributes="0"/>
+                      <Component id="listaAlun" alignment="0" max="32767" attributes="0"/>
+                      <Component id="listaFunc" alignment="0" max="32767" attributes="0"/>
+                      <Component id="listaCurs" alignment="0" max="32767" attributes="0"/>
+                      <Component id="entraDici" alignment="0" pref="203" max="32767" attributes="0"/>
+                      <Component id="tecnico" alignment="0" max="32767" attributes="0"/>
+                      <Component id="professor" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="alunoj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aluno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="funcionarioj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="funcio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cursoj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="curso" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="diciplinaj" min="-2" max="-2" attributes="0"/>
+                      <Component id="dici" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mostraAJ" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="listaAlun" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mostrafunj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="listaFunc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mostraCursoj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="listaCurs" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mostraDiciplinaj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="entraDici" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="mostraTecj" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tecnico" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="mostraProfej" min="-2" max="-2" attributes="0"/>
+                      <Component id="professor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="38" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="alunoj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="fazer cadastro de alunos "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="aluno">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="alunoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="funcionarioj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="fazer cadastro de funcionarios"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="funcio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="funcioActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cursoj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="fazer cadastro curso"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="curso">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cursoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="diciplinaj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="fazer cadastro diciplina"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="dici">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="diciActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mostraAJ">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mostra lista de alunos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mostrafunj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mostra lista de funcionario"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mostraCursoj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mostra lista de cursos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mostraDiciplinaj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mostra lista de diciplinas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="listaAlun">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="listaAlunActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="listaFunc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="listaFuncActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="listaCurs">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="listaCursActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="entraDici">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="entraDiciActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mostraTecj">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mostra lista de tecnicos "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="tecnico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tecnicoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mostraProfej">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mostra lista de professores "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="professor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="entra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="professorActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
